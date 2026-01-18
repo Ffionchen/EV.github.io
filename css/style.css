@@ -15,6 +15,10 @@ h1, h2, h3 {
     text-align: center;
 }
 
+h2 {
+    font-size: 1.8rem;
+}
+
 p {
     text-align: center;
 }
@@ -39,6 +43,9 @@ section {
 .abstract-content {
     max-width: 800px;
     margin: 0 auto;
+}
+
+.abstract-content p {
     text-align: justify;
 }
 
@@ -52,6 +59,10 @@ section {
     max-width: 100%;
     height: auto;
     border: 1px solid #ccc;
+}
+
+.image-grid.large img {
+    width: 1000px;
 }
 
 video {
