@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Embodied Visual Framework for Intelligent Agents with Closed-loop Visual Sensing and Decision-making</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="main-header">
+    <h1>An Embodied Visual Framework for Intelligent Agents with Closed-loop Visual Sensing and Decision-making</h1>
+    <p class="authors">
+        author1 · author2 · author3 · author4
+    </p>
+    <p>
+        <a href="https://arxiv.org/abs/2311.03357" target="_blank">Paper</a> |
+        <a href="https://github.com/xgxvisnav/xgxvisnav.github.io" target="_blank">Code</a>
+    </p>
+</header>
+
+<section class="abstract">
+    <h2>Abstract</h2>
+    <p>
+        <!-- 摘要内容 -->
+        Current intelligent agents typically treat vision as passive sensory input or modulate observations indirectly through agent pose changes. In contrast, biological intelligence treats perception as an inherently embodied and actively regulated process, grounded in dedicated sensory organs whose dynamics are continuously shaped by behavior. This mismatch has profound consequences: despite impressive advances in intelligent tasks, contemporary artificial agents largely lack a controllable visual perceptual substrate, limiting their accuracy, robustness, and generalization in dynamic environments.
+Inspired by this biological paradigm, we propose an embodied visual framework that formalizes visual embodiment via an algorithmic ``eye'' serving as a visual ``body'' for agents.
+Rather than treating vision as a static input stream, the framework incorporates eye-inspired mechanisms to actively regulate visual sampling and gaze behavior, making visual information acquisition a learnable component of the perception–action loop. 
+By unifying perceptual control, visual representation learning, and decision-making within a single integrated architecture, the framework transforms visual perception into an embodied sensorimotor process, enabling adaptation to task objectives and environmental dynamics.
+Across diverse visual and embodied intelligence tasks, agents equipped with embodied vision consistently outperform passive-vision counterparts in robustness, adaptability, and generalization. Beyond performance gains, the learned visual representations and the resulting sensing–action dynamics exhibit closer correspondence to key characteristics of human vision at both representational and behavioral levels, providing interpretable evidence for how embodied perception supports intelligent action.
+Collectively, these findings demonstrate that treating perception as an embodied and controllable process constitutes a fundamental design principle for adaptive artificial intelligence, and suggest a general pathway toward more robust, interpretable, and behaviorally grounded intelligent systems.
+    </p>
+</section>
+
+<section class="Embodied Visual Framework ">
+    <h2>Embodied Visual Framework</h2>
+    <div class="image-grid">
+        <img src="assets/images/frame.png" alt="">
+    </div>
+</section>
+
+<section class="results">
+    <h2>Simulation Results</h2>
+    <p>
+        Simulation Object Goal Task Performance of XGX (baseline) and our proposed EV-XGX (our method). 
+        Metrics include SR, SPL, and softSPL (higher is better).
+    </p>
+    <div class="image-grid">
+        <img src="assets/images/result1.png" alt="">
+    </div>
+</section>
+
+<section class="robot">
+    <h2>Real World Results</h2>
+    <h3>Robot Morphology</h3>
+    <p>
+        Real-world deployment of the proposed embodied visual navigation system on the Autolabor Pro1 mobile robot.
+    </p>
+    <img src="assets/images/robot.png" alt="">
+    <h3>Real-World Object-Goal Navigation Results</h3>
+    <p>
+        Real-World Object-Goal Navigation Results.
+    </p>
+    <div class="image-grid">
+        <img src="assets/images/result2.png" alt="">
+    </div>
+
+</section>
+<section class="media">
+    <h3>Example Real-World Rollout</h3>
+    <p>Below are examples of rollouts collected in the real-world. </p>
+    <video controls width="800">
+        <source src="asserts/videos_5x_silent/VID_20251116_140630.mp4" type="video/mp4">
+        <source src="asserts/videos_5x_silent/VID_20251116_155626.mp4" type="video/mp4">
+    </video>
+</section>
+
+<footer class="main-footer">
+</footer>
+
+</body>
+</html>
