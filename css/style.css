@@ -1,9 +1,13 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     line-height: 1.6;
     background: #fff;
     color: #111;
+}
+
+h1, h2, h3 {
+    text-align: center;
 }
 
 .main-header {
@@ -23,6 +27,12 @@ body {
 section {
     padding: 1.6rem 2rem;
     border-bottom: 1px solid #ddd;
+}
+
+.abstract-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
 }
 
 .image-grid {
