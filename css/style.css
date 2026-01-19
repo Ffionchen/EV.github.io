@@ -65,6 +65,28 @@ section {
     width: 1000px;
 }
 
+.image-grid.two-column {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.image-grid.two-column img {
+    width: calc(50% - 10px);
+    max-width: none;
+}
+
+.image-grid.four-column {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.image-grid.four-column img {
+    width: 80%;
+    max-width: none;
+}
+
 video {
     display: block;
     margin: 0 auto;
