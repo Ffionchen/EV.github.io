@@ -78,7 +78,7 @@ section {
 
 .image-grid.four-column {
     width: 100vw;
-    max-width: 1600px;
+    max-width: 1400px;
     margin: 0 auto;
     position: relative;
     left: 50%;
@@ -90,7 +90,7 @@ section {
 
 .image-grid.four-column img,
 .image-grid.four-column video {
-    width: 96%;
+    width: 100%;
     max-width: none;
     height: auto;
 }
