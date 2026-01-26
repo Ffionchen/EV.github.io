@@ -85,12 +85,12 @@ section {
     transform: translateX(-50%);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 0px;
+    gap: 2px;
 }
 
 .image-grid.four-column img,
 .image-grid.four-column video {
-    width: 100%;
+    width: 96%;
     max-width: none;
     height: auto;
 }
