@@ -78,14 +78,14 @@ section {
 
 .image-grid.four-column {
     width: 100vw;
-    max-width: 1800px;
+    max-width: 1600px;
     margin: 0 auto;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 0px;
 }
 
 .image-grid.four-column img,
