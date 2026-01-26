@@ -48,6 +48,7 @@
 </section>
 
 <section class="results">
+    <!-- 分类任务 -->
     <h2>Classification task performance</h2>
     <p>Computational cost analysis of ResNet18-EV under different numbers of eye-movement steps (EM) and
         post-retina resolutions. Restricting iterative processing to the stem enables substantial FLOPs reduction while preserving
@@ -71,13 +72,25 @@
         </video>
     </div>
         <h2>Simulation Results</h2>
-
     <p>
         Simulation Object Goal Task Performance of XGX (baseline) and our proposed EV-XGX (our method). 
         Metrics include SR, SPL, and softSPL (higher is better).
     </p>
     <div class="image-grid large">
         <img src="asserts/images/result1.png" alt="">
+    </div>
+
+    <h3>Example Simulation Rollout</h3>
+    <p>Below are examples of rollouts collected in the simulation. </p>
+    <p>Example 1  Goal: Chair</p>
+    <div class="image-grid">
+        <video autoplay muted loop>
+            <source src="asserts/video-class/episode=0chair.mp4" type="video/mp4">
+        </video>
+        <p>Example 2  Goal: Bed</p>
+        <video autoplay muted loop>
+            <source src="asserts/video-class/episode=1bed.mp4" type="video/mp4">
+        </video>
     </div>
 </section>
 
