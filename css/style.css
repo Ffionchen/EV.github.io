@@ -65,6 +65,12 @@ section {
     width: 1000px;
 }
 
+.vs {
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 0 6px;
+}
+
 .section-title.two-column {
     display: grid;
     grid-template-columns: 1fr 1fr;
