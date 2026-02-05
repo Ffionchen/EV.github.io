@@ -68,12 +68,12 @@ section {
 .section-title.two-column {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 64px;
+    gap: 84px;
     margin-bottom: 16px;
 }
 
 .section-title h2 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin: 0;
 }
 
@@ -88,7 +88,7 @@ section {
 .image-grid.two-column {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 60px;
 }
 
 .image-grid.two-column img {
