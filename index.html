@@ -14,14 +14,27 @@
 
 <div class="page-container">
 <header class="main-header">
-    <h1>An Embodied Visual Framework for Intelligent Agents with Closed-loop Visual Sensing and Decision-making</h1>
+    <h1>Embodied Visual Framework for Closed-loop Perception-Decision Making in Intelligent Agents</h1>
+    
     <p class="authors">
-        author1 · author2 · author3 · author4
+        Jiahong Zhang · Zifan Chen · Haijian Qin · Wangtian Shen · Man Yao · 
+        Jinning Zhao · Tianxiang Hu · Yu Qiao · Wei Wang · Jinhu Lü · 
+        Ziyang Meng* · Bo Xu · Guoqi Li*
     </p>
+    
     <p>
-        <a href="https://arxiv.org/abs/2311.03357" target="_blank"><img src="asserts/images/link1.svg" alt="Paper" style="height: 35px;"></a> 
-        <a href="https://github.com/xgxvisnav/xgxvisnav.github.io" target="_blank"><img src="asserts/images/link2.svg" alt="Code" style="height: 35px;"></a>
+        <a href="https://arxiv.org/abs/2311.03357" target="_blank">
+            <img src="asserts/images/link1.svg" alt="Paper" style="height: 35px;">
+        </a> 
+        <a href="https://github.com/xgxvisnav/xgxvisnav.github.io" target="_blank">
+            <img src="asserts/images/link2.svg" alt="Code" style="height: 35px;">
+        </a>
     </p>
+    
+    <p class="corresponding">
+        * Corresponding authors: ziyangmeng@mail.tsinghua.edu.cn; guoqi.li@ia.ac.cn
+    </p>
+
 </header>
 
 <section class="abstract">
@@ -29,12 +42,15 @@
     <div class="abstract-content">
         <p>
             <!-- 摘要内容 -->
-            Current intelligent agents typically treat vision as passive sensory input or modulate observations indirectly through agent pose changes. In contrast, biological intelligence treats perception as an inherently embodied and actively regulated process, grounded in dedicated sensory organs whose dynamics are continuously shaped by behavior. This mismatch has profound consequences: despite impressive advances in intelligent tasks, contemporary artificial agents largely lack a controllable visual perceptual substrate, limiting their accuracy, robustness, and generalization in dynamic environments.
-    Inspired by this biological paradigm, we propose an embodied visual framework that formalizes visual embodiment via an algorithmic ``eye'' serving as a visual ``body'' for agents.
-    Rather than treating vision as a static input stream, the framework incorporates eye-inspired mechanisms to actively regulate visual sampling and gaze behavior, making visual information acquisition a learnable component of the perception–action loop. 
-    By unifying perceptual control, visual representation learning, and decision-making within a single integrated architecture, the framework transforms visual perception into an embodied sensorimotor process, enabling adaptation to task objectives and environmental dynamics.
-    Across diverse visual and embodied intelligence tasks, agents equipped with embodied vision consistently outperform passive-vision counterparts in robustness, adaptability, and generalization. Beyond performance gains, the learned visual representations and the resulting sensing–action dynamics exhibit closer correspondence to key characteristics of human vision at both representational and behavioral levels, providing interpretable evidence for how embodied perception supports intelligent action.
-    Collectively, these findings demonstrate that treating perception as an embodied and controllable process constitutes a fundamental design principle for adaptive artificial intelligence, and suggest a general pathway toward more robust, interpretable, and behaviorally grounded intelligent systems.
+            Current intelligent agents largely rely on disembodied visual sensing: observations are treated as fixed inputs that cannot be explicitly regulated to meet task demands, limiting adaptive perception and decision-making in dynamic environments.
+In contrast, biological vision is inherently embodied, supported by dedicated sensory organs that enable precise, purposeful modulation of perceptual input.
+This discrepancy highlights a critical structural deficiency in today's agents, where the lack of a controllable visual perceptual substrate fundamentally compromises their adaptability to dynamic or novel scenarios.
+To bridge this gap, we propose an embodied visual framework that formalizes visual embodiment via an algorithmic “eye” serving as a visual “body” for agents. 
+Instead of consuming a static input stream, the algorithmic “eye” actively regulates visual sensing, and is jointly optimized with representation learning and task-driven decision-making to form a closed perception-decision loop.
+Across diverse tasks, agents equipped with embodied vision achieve higher accuracy, robustness, and generalization.
+In static recognition, our approach improves accuracy and enhances robustness to ImageNet corruptions by 8.1%. In interactive decision-making on the Arcade Learning Environment, it substantially improves task performance, increasing the Amidar score by approximately 100 points. In navigation, robustness to visual corruptions improves by 8.8%, and real-world navigation achieves nearly a 2× increase in success rate compared with baseline methods.
+Beyond performance, the learned visual representations exhibit closer correspondence to the human visual cortex, while the learned gaze patterns provide interpretable insights into the agent's decision-making.
+Collectively, these findings suggest that making visual perception controllable and embodied is a fundamental design principle for building accurate, robust, and interpretable intelligent agents.
         </p>
     </div>
 </section>
